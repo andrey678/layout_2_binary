@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", sans-serif; }
 
 .header {
-  background: url("../../img/header/bg_header.png") 0 0/cover no-repeat; }
+  background: url("../img/header/bg_header.png") 0 0/cover no-repeat; }
   .header__inner {
     max-width: 754px;
     margin: 0 auto;
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 2px;
     margin: 0 auto 227px; }
   .header__arrow {
-    background: url("../../img/header/Icons/arrow_down.png") 0 0 no-repeat;
+    background: url("../img/header/Icons/arrow_down.png") 0 0 no-repeat;
     width: 17px;
     height: 10px;
     margin: 75px auto 0; }
@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 365px; }
 
 .partners {
-  background: url("../../img/partners/bg_partners.png") 0 -441px no-repeat; }
+  background: url("../img/partners/bg_partners.png") 0 -441px no-repeat; }
   .partners__inner {
     max-width: 584px;
     margin: 0 auto;
