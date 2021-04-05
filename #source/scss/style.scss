@@ -295,10 +295,12 @@
   }
   &__inner-bottom {
     display: flex;
+    max-width: 100%;
+    padding: 0 400px 0 17%;
   }
   &__form {
     max-width: 382px;
-    margin: 0 0 0 220px;
+    
   }
   &__proposal {
     max-width: 252px;
@@ -328,6 +330,7 @@
     line-height: 26px;
     font-weight: 300;
     color: #000000;
+    white-space:nowrap;
   }
   &__proposal-write {
     font-family: "Lato", sans-serif;

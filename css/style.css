@@ -334,11 +334,12 @@ h1, h2, h3, h4, h5, h6 {
 .contact__inner-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  max-width: 100%;
+  padding: 0 400px 0 17%; }
 
 .contact__form {
-  max-width: 382px;
-  margin: 0 0 0 220px; }
+  max-width: 382px; }
 
 .contact__proposal {
   max-width: 252px;
@@ -367,7 +368,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   line-height: 26px;
   font-weight: 300;
-  color: #000000; }
+  color: #000000;
+  white-space: nowrap; }
 
 .contact__proposal-write {
   font-family: "Lato", sans-serif;
