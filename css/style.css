@@ -275,16 +275,23 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #000; }
 
 .tiles {
+  max-width: 1103px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (538px)[2];
-  grid-template-columns: repeat(2, 538px);
-  -ms-grid-rows: (365px)[3];
-  grid-template-rows: repeat(3, 365px);
-  grid-gap: 16px 27px; }
+  -ms-grid-rows: 33% 16px 33% 16px 33%;
+  -ms-grid-columns: 45% 27px 45%;
+  grid-template: repeat(3, 33%)/repeat(2, 45%);
+  grid-gap: 16px 27px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center; }
   .tiles__item {
-    width: 538px;
-    height: 365px; }
+    max-width: 538px;
+    max-height: 365px; }
+  .tiles__item-img {
+    max-width: 100%; }
 
 .partners {
   background: url("../img/partners/bg_partners.png") 0 -441px no-repeat; }

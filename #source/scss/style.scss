@@ -234,14 +234,22 @@
 }
 
 .tiles {
+  max-width: 1103px;
+
   display: grid;
-  grid-template-columns: repeat(2, 538px);
-  grid-template-rows: repeat(3, 365px);
+  grid-template: repeat(3,33%) / repeat(2, 45%);
+  // grid-template-columns: repeat(2, 538px);
+  // grid-template-rows: repeat(3, 365px);
   grid-gap: 16px 27px;
+  justify-content:center;
+  align-content: center;
   &__item {
-    width: 538px;
-    height: 365px;
+    max-width: 538px;
+    max-height: 365px;
   }
+ &__item-img{
+  max-width: 100%;
+ }  
 }
 
 .partners {
